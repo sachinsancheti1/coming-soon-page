@@ -101,49 +101,20 @@
   });
 </script>
 
-<img
-  src="assets/logo.svg"
-  alt="RendPro strony internetowy i wizualizacje 3D"
-  class={logoClass}
-/>
+<p class={paragraphClass}>Coming Soon</p>
 
-<p class={paragraphClass}>Strona w produkcji</p>
-
-<h1 class={headlineClass}>Rend<span>kodujemy</span> tę stronę</h1>
+<h1 class={headlineClass}>S<span>ancheti</span> family</h1>
 
 <p class={paragraphClass}>
-  Zamierzamy niedługo uruchomić tę witrynę. Bądź czujny!
+  We are going to launch this page soon.
 </p>
 
 <div class={buttonsWrapperClass}>
-  <a
-    href={SOCIAL_LINKS.FACEBOOK}
-    class={buttonClass}
-    aria-label="Facebook"
-    target="_blank"
-    rel="noopener"
-    on:mouseenter={setScaleTrue}
-    on:mouseleave={setScaleFalse}
-  >
-    <Icon icon={facebookIcon} />
-  </a>
-
-  <a
-    href={SOCIAL_LINKS.INSTAGRAM}
-    class={buttonClass}
-    aria-label="Instagram"
-    target="_blank"
-    rel="noopener"
-    on:mouseenter={setScaleTrue}
-    on:mouseleave={setScaleFalse}
-  >
-    <Icon icon={instagramIcon} />
-  </a>
 
   <a
     href={SOCIAL_LINKS.WEBSITE}
     class={buttonClass}
-    aria-label="Strona www"
+    aria-label="Sancheti family www"
     target="_blank"
     rel="noopener"
     on:mouseenter={setScaleTrue}
